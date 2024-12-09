@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4y7IJtx48ENgMc8q8AXTx7AnDOX0QLpixlyMs2lRg0YNT7McWr2MNaJQRZSWQhIXqJ+WxXbjcrYTHcgGCfociw==",
+  "dgSpecHash": "j692AEzViLDPpvi48VcalOs1IubKQhvASqAAuyqQj243udptD0YwYS8mVq+8XOTNJFs3z3qqz+Ps89/28KPa8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cisco01\\Desktop\\DALS\\StatusBar_DALS\\StatusBar_DALS.Android\\StatusBar_DALS.Android.csproj",
+  "projectFilePath": "C:\\Users\\cisco01\\Desktop\\LASD\\StatusBar-LASD\\StatusBar_DALS.Android\\StatusBar_DALS.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cisco01\\.nuget\\packages\\plugin.currentactivity\\2.1.0.4\\plugin.currentactivity.2.1.0.4.nupkg.sha512",
     "C:\\Users\\cisco01\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

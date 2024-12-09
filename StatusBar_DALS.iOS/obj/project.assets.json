@@ -1068,11 +1068,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cisco01\\Desktop\\DALS\\StatusBar_DALS\\StatusBar_DALS.iOS\\StatusBar_DALS.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\cisco01\\Desktop\\LASD\\StatusBar-LASD\\StatusBar_DALS.iOS\\StatusBar_DALS.iOS.csproj",
       "projectName": "StatusBar_DALS.iOS",
-      "projectPath": "C:\\Users\\cisco01\\Desktop\\DALS\\StatusBar_DALS\\StatusBar_DALS.iOS\\StatusBar_DALS.iOS.csproj",
+      "projectPath": "C:\\Users\\cisco01\\Desktop\\LASD\\StatusBar-LASD\\StatusBar_DALS.iOS\\StatusBar_DALS.iOS.csproj",
       "packagesPath": "C:\\Users\\cisco01\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cisco01\\Desktop\\DALS\\StatusBar_DALS\\StatusBar_DALS.iOS\\obj\\",
+      "outputPath": "C:\\Users\\cisco01\\Desktop\\LASD\\StatusBar-LASD\\StatusBar_DALS.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1093,8 +1093,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\cisco01\\Desktop\\DALS\\StatusBar_DALS\\StatusBar_DALS\\StatusBar_DALS.csproj": {
-              "projectPath": "C:\\Users\\cisco01\\Desktop\\DALS\\StatusBar_DALS\\StatusBar_DALS\\StatusBar_DALS.csproj"
+            "C:\\Users\\cisco01\\Desktop\\LASD\\StatusBar-LASD\\StatusBar_DALS\\StatusBar_DALS.csproj": {
+              "projectPath": "C:\\Users\\cisco01\\Desktop\\LASD\\StatusBar-LASD\\StatusBar_DALS\\StatusBar_DALS.csproj"
             }
           }
         }

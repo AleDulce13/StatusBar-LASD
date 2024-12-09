@@ -3445,11 +3445,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cisco01\\Desktop\\DALS\\StatusBar_DALS\\StatusBar_DALS.Android\\StatusBar_DALS.Android.csproj",
+      "projectUniqueName": "C:\\Users\\cisco01\\Desktop\\LASD\\StatusBar-LASD\\StatusBar_DALS.Android\\StatusBar_DALS.Android.csproj",
       "projectName": "StatusBar_DALS.Android",
-      "projectPath": "C:\\Users\\cisco01\\Desktop\\DALS\\StatusBar_DALS\\StatusBar_DALS.Android\\StatusBar_DALS.Android.csproj",
+      "projectPath": "C:\\Users\\cisco01\\Desktop\\LASD\\StatusBar-LASD\\StatusBar_DALS.Android\\StatusBar_DALS.Android.csproj",
       "packagesPath": "C:\\Users\\cisco01\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cisco01\\Desktop\\DALS\\StatusBar_DALS\\StatusBar_DALS.Android\\obj\\",
+      "outputPath": "C:\\Users\\cisco01\\Desktop\\LASD\\StatusBar-LASD\\StatusBar_DALS.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3470,8 +3470,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\cisco01\\Desktop\\DALS\\StatusBar_DALS\\StatusBar_DALS\\StatusBar_DALS.csproj": {
-              "projectPath": "C:\\Users\\cisco01\\Desktop\\DALS\\StatusBar_DALS\\StatusBar_DALS\\StatusBar_DALS.csproj"
+            "C:\\Users\\cisco01\\Desktop\\LASD\\StatusBar-LASD\\StatusBar_DALS\\StatusBar_DALS.csproj": {
+              "projectPath": "C:\\Users\\cisco01\\Desktop\\LASD\\StatusBar-LASD\\StatusBar_DALS\\StatusBar_DALS.csproj"
             }
           }
         }

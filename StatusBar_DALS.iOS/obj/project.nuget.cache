@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XbLpi/6GWQZj0oQiIHYPKijQMeZCQx/ZX3W6NtLr5XS0/i6j3jO2vh3clde4svSGAOpljzNcXXoGrIVH47xu6w==",
+  "dgSpecHash": "HEvWaZNsshd/9kTJ7NEolofmZugjOoLm2Fdv9fEdx6bRJ0A9u4zvzK+8u6jqCS528mI9HilE98L75my+ixEdUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cisco01\\Desktop\\DALS\\StatusBar_DALS\\StatusBar_DALS.iOS\\StatusBar_DALS.iOS.csproj",
+  "projectFilePath": "C:\\Users\\cisco01\\Desktop\\LASD\\StatusBar-LASD\\StatusBar_DALS.iOS\\StatusBar_DALS.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cisco01\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\cisco01\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",

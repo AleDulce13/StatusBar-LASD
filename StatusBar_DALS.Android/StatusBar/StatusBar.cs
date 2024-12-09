@@ -20,29 +20,70 @@ namespace StatusBar_DALS.Droid.StatusBar
 {
     internal class StatusBar : VMstatusbar
     {
+        WindowManagerFlags _originalFlags;
+
+        Window GetCrurrentwindow()
+        {
+            var window = CrossCurrentActivity.Current.Activity.Window;
+            window.ClearFlags(WindowManagerFlags.TranslucentStatus);
+            window.AddFlags(WindowManagerFlags.DrawsSystemBarBackgrounds);
+            return window;
+
+        }
+
         public void CambiarColor()
         {
-            throw new NotImplementedException();
+            MostrarStatusBar();
+            if (Build.VERSION.SdkInt >= BuildVersionCodes.M)
+            {
+                Device.BeginInvokeOnMainThread(() =>
+                {
+                    var currentWindow = GetCrurrentwindow();
+                    currentWindow.DecorView.SystemUiVisibility = (StatusBarVisibility)SystemUiFlags.LayoutStable;
+                    currentWindow.SetStatusBarColor(Android.Graphics.Color.Rgb(18, 18, 18));
+                });
+            }
         }
 
         public void MostrarStatusBar()
         {
-            throw new NotImplementedException();
+            var activity = (Activity)Forms.Context;
+            var attrs = activity.Window.Attributes;
+            attrs.Flags = _originalFlags;
+            activity.Window.Attributes = attrs;
         }
 
         public void OcultarStatusBar()
         {
-            throw new NotImplementedException();
+            var activity = (Activity)Forms.Context;
+            var attrs = activity.Window.Attributes;
+            _originalFlags = attrs.Flags;
+            attrs.Flags = WindowManagerFlags.Fullscreen;
+            activity.Window.Attributes = attrs;
         }
 
         public void Transparente()
         {
-            throw new NotImplementedException();
+            MostrarStatusBar();
+            if (Build.VERSION.SdkInt >= BuildVersionCodes.M)
+            {
+                Device.BeginInvokeOnMainThread(() =>
+                {
+                    var currentWindow = GetCrurrentwindow();
+                    currentWindow.DecorView.SystemUiVisibility = (StatusBarVisibility)SystemUiFlags.LayoutFullscreen;
+                    currentWindow.SetStatusBarColor(Android.Graphics.Color.Transparent);
+                });
+            }
         }
 
         public void Traslucido()
         {
-            throw new NotImplementedException();
+            MostrarStatusBar();
+            var activity = (Activity)Forms.Context;
+            var attrs = activity.Window.Attributes;
+            _originalFlags = attrs.Flags;
+            attrs.Flags = WindowManagerFlags.TranslucentStatus;
+            activity.Window.Attributes = attrs;
         }
     }
 }

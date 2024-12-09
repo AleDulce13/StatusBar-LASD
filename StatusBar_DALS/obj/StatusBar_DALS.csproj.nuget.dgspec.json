@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cisco01\\Desktop\\DALS\\StatusBar_DALS\\StatusBar_DALS\\StatusBar_DALS.csproj": {}
+    "C:\\Users\\cisco01\\Desktop\\LASD\\StatusBar-LASD\\StatusBar_DALS\\StatusBar_DALS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cisco01\\Desktop\\DALS\\StatusBar_DALS\\StatusBar_DALS\\StatusBar_DALS.csproj": {
+    "C:\\Users\\cisco01\\Desktop\\LASD\\StatusBar-LASD\\StatusBar_DALS\\StatusBar_DALS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cisco01\\Desktop\\DALS\\StatusBar_DALS\\StatusBar_DALS\\StatusBar_DALS.csproj",
+        "projectUniqueName": "C:\\Users\\cisco01\\Desktop\\LASD\\StatusBar-LASD\\StatusBar_DALS\\StatusBar_DALS.csproj",
         "projectName": "StatusBar_DALS",
-        "projectPath": "C:\\Users\\cisco01\\Desktop\\DALS\\StatusBar_DALS\\StatusBar_DALS\\StatusBar_DALS.csproj",
+        "projectPath": "C:\\Users\\cisco01\\Desktop\\LASD\\StatusBar-LASD\\StatusBar_DALS\\StatusBar_DALS.csproj",
         "packagesPath": "C:\\Users\\cisco01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cisco01\\Desktop\\DALS\\StatusBar_DALS\\StatusBar_DALS\\obj\\",
+        "outputPath": "C:\\Users\\cisco01\\Desktop\\LASD\\StatusBar-LASD\\StatusBar_DALS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

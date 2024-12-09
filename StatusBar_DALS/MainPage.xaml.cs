@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using StatusBar_DALS.VistaModelo;
 
 namespace StatusBar_DALS
 {
@@ -13,6 +14,7 @@ namespace StatusBar_DALS
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = new VMmainpage();
         }
     }
 }
